@@ -1,0 +1,24 @@
+a=1
+while(a<=6):
+    print(a)
+    a=a+1
+    
+b=1
+while(b<=5):
+    print("!"*b)
+    b=b+1
+
+    
+u=12
+while(u>=1):
+    print("hi" *u)
+    u=u-1
+
+
+d1= "hellow wolrd"
+for k in d1:
+    print(k)
+    
+d1= "hellow wolrd"
+for k in d1:
+    print(k,end="*")
