@@ -1,0 +1,91 @@
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+num=[78,2,44,56,"kavini", 77]
+num
+[78, 2, 44, 56, 'kavini', 77]
+num.append(470)
+num
+[78, 2, 44, 56, 'kavini', 77, 470]
+num.insert(3,8888)
+num
+[78, 2, 44, 8888, 56, 'kavini', 77, 470]
+num.remove(77
+          
+num           
+[78, 2, 44, 8888, 56, 'kavini', 470]
+num.pop(5)
+           
+'kavini'
+num
+           
+[78, 2, 44, 8888, 56, 470]
+num.pop()
+           
+470
+
+num.pop()
+           
+56
+
+56
+           
+56
+num
+           
+[78, 2, 44, 8888]
+del num[1:2]
+           
+num
+           
+[78, 44, 8888]
+num.extend([55,"vishaka",7678])
+           
+num
+           
+[78, 44, 8888, 55, 'vishaka', 7678]
+56
+           
+56
+sum(num)
+           
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    sum(num)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+num.remove(4)
+           
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    num.remove(4)
+ValueError: list.remove(x): x not in list
+num.pop(4)
+           
+'vishaka'
+num
+           
+[78, 44, 8888, 55, 7678]
+sum(num)
+           
+16743
+max(num)
+           
+8888
+min(num)
+           
+44
+num.sort()
+           
+num
+           
+[44, 55, 78, 7678, 8888]
+num.insert(2,"mal")
+           
+num
+           
+[44, 55, 'mal', 78, 7678, 8888]
+max(num)
+           
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    max(num)
+TypeError: '>' not supported between instances of 'str' and 'int'
