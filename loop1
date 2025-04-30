@@ -1,0 +1,8 @@
+total=0
+x=1
+while x<6:
+    sum=int(input("enter a num"  ))
+    x=x+1
+    total=sum+total
+print(total)
+
